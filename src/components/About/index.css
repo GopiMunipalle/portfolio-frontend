@@ -1,12 +1,13 @@
 .about-bg-container {
   background-color: white;
-  height: 100vh;
+  height: 136vh;
   display: flex;
 }
 @media screen and (min-width: 576px) {
   .about-bg-container {
     display: flex;
     flex-direction: column;
+    height: 100vh;
   }
 }
 .about-container {
