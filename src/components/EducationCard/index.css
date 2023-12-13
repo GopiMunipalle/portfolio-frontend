@@ -1,0 +1,49 @@
+.education-card-items-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 5px 5px 5px lightslategray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media screen and (min-width:576px) {
+    .education-card-items-container{
+        margin-top: 10px;
+    }
+}
+.education-card-items-container:hover {
+  transform: scale(0.9);
+}
+
+.education-details-card {
+  padding: 0px;
+}
+.education-year-card {
+  display: flex;
+  align-self: flex-start;
+}
+.education-heading {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.branch {
+  font-family: serif;
+  font-size: 13px;
+}
+.major {
+  font-family: serif;
+  font-size: 13px;
+}
+.score {
+  font-family: "roboto";
+  font-size: 13px;
+}
+.year {
+  margin-top: 8px;
+  font-family: "Roboto";
+  font-size: 15px;
+  margin-left: 20px;
+}

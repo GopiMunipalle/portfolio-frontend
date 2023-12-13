@@ -1,0 +1,52 @@
+.contact-us-bg-container {
+  background-color: rgb(35, 34, 34);
+  height: 100vh;
+  display: flex;
+}
+@media screen and (min-width: 576px) {
+  .contact-us-bg-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+.contact-us-container {
+  height: 100%;
+  width: 80vh;
+  background-color: rgb(35, 34, 34);
+}
+@media screen and (min-width: 576px) {
+  .contact-us-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+}
+.contact-us-page {
+  margin-left: 15vh;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+@media screen and (min-width: 576px) {
+  .contact-us-page {
+    margin-top: 20vh;
+  }
+}
+.contact-us-title{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: yellow;
+    margin-left: 0px;
+}
+.button{
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+}
+.contact-us-button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}

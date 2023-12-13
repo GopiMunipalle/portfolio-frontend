@@ -1,0 +1,62 @@
+.projects-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: black;
+  box-shadow: 5px 5px 5px lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 90%;
+  cursor: pointer;
+}
+.projects-card-container:hover {
+  transform: scale(0.9);
+}
+.project-link-card {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 576px) {
+  .project-link-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.project-title {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: yellow;
+}
+.project-description {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.project-tech {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+.span {
+  color: yellow;
+  margin: 0px;
+}
+.project-link {
+  color: yellow;
+  margin: 0px;
+  font-size: 16px;
+}
+.link-tag {
+  color: red;
+  font-size: 15px;
+}
+.link-tag:active {
+  color: greenyellow;
+}

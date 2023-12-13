@@ -1,0 +1,37 @@
+.li-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 576px) {
+  .li-container {
+    display: grid;
+    grid-template-columns: repeat(5, 0.2fr);
+  }
+}
+.skill-card-li-item {
+  background-color: grey;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 4px black;
+  width: 60%;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 576px) {
+  .skill-card-li-item {
+    width: 170px;
+  }
+}
+.skill-heading {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.skill-content {
+  font-family: serif;
+  font-size: 13px;
+  color: rgb(237, 222, 222);
+  overflow: hidden;
+}

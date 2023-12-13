@@ -1,0 +1,11 @@
+.contact-us-card-container{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 4px 4px 5px black;
+}
+.contact-name{
+    font-family: sans-serif;
+    font-size: 20px;
+}

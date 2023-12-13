@@ -1,0 +1,49 @@
+.skills-bg-container {
+  background-color: white;
+  height: 100%;
+  display: flex;
+}
+@media screen and (min-width: 576px) {
+  .skills-bg-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+.skills-container {
+  height: 100%;
+  width: 80vh;
+  background-color: rgb(35, 35, 35);
+}
+@media screen and (min-width: 576px) {
+  .skills-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.skills-page {
+  margin-left: 11vh;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+@media screen and (min-width: 576px) {
+  .skills-page {
+    margin-top: 20vh;
+  }
+}
+.skill-ul-container {
+  list-style-type: none;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-page-heading {
+  font-family: sans-serif;
+  color: yellow;
+  font-size: 25px;
+  text-align: center;
+}
